@@ -86,3 +86,7 @@ data class Scholar (var name:String, var status:String){
 
     }
 
+    private fun scholarMeanGrade(){
+        meanGrade = assignGrades(meanScore)
+    }
+
