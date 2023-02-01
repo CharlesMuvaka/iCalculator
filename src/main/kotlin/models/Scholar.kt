@@ -90,3 +90,10 @@ data class Scholar (var name:String, var status:String){
         meanGrade = assignGrades(meanScore)
     }
 
+    private fun scholarMeanAGP(){
+        meanAGP = assignAGP(meanGrade!!)!!
+    }
+
+
+}
+
