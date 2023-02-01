@@ -97,3 +97,14 @@ data class Scholar (var name:String, var status:String){
 
 }
 
+class ScholarStatus{
+    var highSchool: String = "high-school"
+    var campus: String = "University scholar"
+    var preCampus: String = "A post graduate"
+}
+
+data class Subject(var name: String, var category: String){
+    var grade: String? = null;
+    var agp: Int = 0
+    var score:Int = 0
+}
