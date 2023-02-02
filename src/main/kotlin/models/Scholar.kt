@@ -11,6 +11,8 @@ data class Scholar (var name:String, var status:String){
     var meanGrade: String? = null
     var meanScore: Int = 0
     var meanAGP: Int = 0
+    var courses = ArrayList<String>()
+    var tertiaryInstitutions = ArrayList<String>()
 
     fun getOrigin() = this.origin
     fun setOrigin(origin: String){
